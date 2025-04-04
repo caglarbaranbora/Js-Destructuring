@@ -7,13 +7,13 @@ function consoleStyler(color, background, fontSize, txt) {
 }
 
 function celebrateStyler(reason) {
-  let fontStyle = "color:tomato; fontsize: 50px";
+  let fontStyle = "color:tomato; font-size: 50px";
   if (reason == "birthday") {
     console.log(`%cHappy birthday`, fontStyle);
   } else if (reason == "champions") {
     console.log(`%cCongrats on the title!`, fontStyle);
   } else {
-    consoleStyler();
+    console.log(message, style);
   }
 }
 
